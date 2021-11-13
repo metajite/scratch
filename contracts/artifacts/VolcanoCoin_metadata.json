@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_newTotal",
+						"type": "uint256"
+					}
+				],
+				"name": "NewTotal",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "getTotalSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setTotalSupply",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/VolcanoCoin.sol": "VolcanoCoin"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/VolcanoCoin.sol": {
+			"keccak256": "0xc424c3192775a26bc692ab65f7cebef438e5eca9dd2b56cfb4d1f08330048138",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://9a6c007cdfdc8ca9f61a08b5a504d0b0e7d1cc02af832aeadebfee7d91763359",
+				"dweb:/ipfs/QmfWNc5keCftaUShQdqwHRAwx7jH8RdujjG5sH63tTsVN9"
+			]
+		}
+	},
+	"version": 1
+}

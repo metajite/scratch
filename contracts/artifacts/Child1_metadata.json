@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "doThings",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Scratch.sol": "Child1"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Scratch.sol": {
+			"keccak256": "0xc030fb2c14b1cb277573391ebd8925daa2825819f120321093ae78b10be2f6b9",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://025212c96ae06e15f83fd9a9878488fe6ef534565ec68842d2020fa684341933",
+				"dweb:/ipfs/QmZ8gYWRwdCQ8P1W16A4MwU6HW19xbJfyYjxzST8RRu9zN"
+			]
+		}
+	},
+	"version": 1
+}
